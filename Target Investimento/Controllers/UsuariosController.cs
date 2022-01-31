@@ -16,7 +16,7 @@ namespace Target_Investimento.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CriarUsuario(CriarUsuarioRequest request)
+        public async Task<IActionResult> CriarUsuario([FromBody] CriarUsuarioRequest request)
         {
             return Created("", await _criarUsuarioCasoDeUso.Executar(request));
         }

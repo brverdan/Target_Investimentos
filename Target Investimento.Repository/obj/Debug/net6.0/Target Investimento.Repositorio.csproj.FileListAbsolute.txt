@@ -9,3 +9,11 @@ C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Reposito
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Repository\obj\Debug\net6.0\Target Investimento.Repositorio.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Repository\obj\Debug\net6.0\ref\Target Investimento.Repositorio.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Repository\obj\Debug\net6.0\Target Investimento.Repositorio.pdb
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Repository\bin\Debug\net6.0\Target Investimento.Repositorio.runtimeconfig.json
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Repository\bin\Debug\net6.0\Target Investimento.Dominio.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Repository\bin\Debug\net6.0\Target Investimento.Servicos.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Repository\bin\Debug\net6.0\Target Investimento.Dominio.pdb
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Repository\bin\Debug\net6.0\Target Investimento.Servicos.pdb
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Repository\obj\Debug\net6.0\Target Investimento.Repositorio.csproj.AssemblyReference.cache
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Repository\obj\Debug\net6.0\Target Investimento.Repositorio.csproj.CopyComplete
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Repository\obj\Debug\net6.0\Target Investimento.Repositorio.genruntimeconfig.cache

@@ -1,5 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using Target_Investimento.IoC;
-
+using Target_Investimento.Repository.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddMyDependencies();
+
+builder.Services.AddDbContext<TargetContext>(
+    options =>
+    {
+        options.UseSqlServer(builder.Configuration.GetConnectionString("TargetConnection"));
+    });
 
 var app = builder.Build();
 

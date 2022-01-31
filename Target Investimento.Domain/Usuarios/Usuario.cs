@@ -1,6 +1,6 @@
 ﻿namespace Target_Investimento.Domain.Usuarios
 {
-    public class Usuario
+    public partial class Usuario
     {
         public Guid Id { get; private set; }
         public string Nome { get; private set; }
@@ -13,5 +13,7 @@
         {
             Endereco = endereco;
         }
+
+        
     }
 }

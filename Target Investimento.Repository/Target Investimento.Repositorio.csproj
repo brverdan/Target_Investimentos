@@ -8,7 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Context\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Target Investimento.Domain\Target Investimento.Dominio.csproj" />
+    <ProjectReference Include="..\Target Investimento.Services\Target Investimento.Servicos.csproj" />
   </ItemGroup>
 
 </Project>

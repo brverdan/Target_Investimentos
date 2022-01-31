@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Target Investimento.Repositorio/1.0.0": {
+      "Target Investimento.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Target Investimento.Repositorio.dll": {}
+          "bin/placeholder/Target Investimento.Dominio.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Target Investimento.Repositorio.dll": {}
+          "bin/placeholder/Target Investimento.Dominio.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Target Investimento.Repositorio/1.0.0": {
+    "Target Investimento.Dominio/1.0.0": {
       "type": "project",
-      "path": "../Target Investimento.Repository/Target Investimento.Repositorio.csproj",
-      "msbuildProject": "../Target Investimento.Repository/Target Investimento.Repositorio.csproj"
+      "path": "../Target Investimento.Domain/Target Investimento.Dominio.csproj",
+      "msbuildProject": "../Target Investimento.Domain/Target Investimento.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Target Investimento.Repositorio >= 1.0.0"
+      "Target Investimento.Dominio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -58,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bruno\\Desktop\\Projetos\\Target Investimento\\Target Investimento.Repository\\Target Investimento.Repositorio.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Desktop\\Projetos\\Target Investimento\\Target Investimento.Repository\\Target Investimento.Repositorio.csproj"
+            "C:\\Users\\Bruno\\Desktop\\Projetos\\Target Investimento\\Target Investimento.Domain\\Target Investimento.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\Projetos\\Target Investimento\\Target Investimento.Domain\\Target Investimento.Dominio.csproj"
             }
           }
         }

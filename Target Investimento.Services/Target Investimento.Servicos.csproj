@@ -8,11 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Target Investimento.Repository\Target Investimento.Repositorio.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Extensoes\" />
+    <ProjectReference Include="..\Target Investimento.Domain\Target Investimento.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

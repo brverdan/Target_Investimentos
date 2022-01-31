@@ -11,9 +11,9 @@
           "Target Investimento.Servicos.dll": {}
         }
       },
-      "Target Investimento.Repositorio/1.0.0": {
+      "Target Investimento.Dominio/1.0.0": {
         "runtime": {
-          "Target Investimento.Repositorio.dll": {}
+          "Target Investimento.Dominio.dll": {}
         }
       }
     }
@@ -24,7 +24,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Target Investimento.Repositorio/1.0.0": {
+    "Target Investimento.Dominio/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

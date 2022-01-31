@@ -2,8 +2,6 @@ C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\bin\Debug\net6.0\Target Investimento.Servicos.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\bin\Debug\net6.0\ref\Target Investimento.Servicos.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\bin\Debug\net6.0\Target Investimento.Servicos.pdb
-C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\bin\Debug\net6.0\Target Investimento.Repositorio.dll
-C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\bin\Debug\net6.0\Target Investimento.Repositorio.pdb
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\obj\Debug\net6.0\Target Investimento.Servicos.csproj.AssemblyReference.cache
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\obj\Debug\net6.0\Target Investimento.Servicos.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\obj\Debug\net6.0\Target Investimento.Servicos.AssemblyInfoInputs.cache
@@ -13,3 +11,5 @@ C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\obj\Debug\net6.0\Target Investimento.Servicos.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\obj\Debug\net6.0\ref\Target Investimento.Servicos.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\obj\Debug\net6.0\Target Investimento.Servicos.pdb
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\bin\Debug\net6.0\Target Investimento.Dominio.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Services\bin\Debug\net6.0\Target Investimento.Dominio.pdb
