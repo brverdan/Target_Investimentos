@@ -1,0 +1,31 @@
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\appsettings.json
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Target Investimento.API.exe
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Target Investimento.API.deps.json
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Target Investimento.API.runtimeconfig.json
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Target Investimento.API.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\ref\Target Investimento.API.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Target Investimento.API.pdb
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Target Investimento.Repositorio.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Target Investimento.Servicos.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Target Investimento.Repositorio.pdb
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\bin\Debug\net6.0\Target Investimento.Servicos.pdb
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\Target Investimento.API.csproj.AssemblyReference.cache
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\Target Investimento.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\Target Investimento.API.AssemblyInfoInputs.cache
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\Target Investimento.API.AssemblyInfo.cs
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\Target Investimento.API.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\Target Investimento.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\Target Investimento.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\scopedcss\bundle\Target Investimento.API.styles.css
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\Target Investimento.API.csproj.CopyComplete
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\Target Investimento.API.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\ref\Target Investimento.API.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\Target Investimento.API.pdb
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento\obj\Debug\net6.0\Target Investimento.API.genruntimeconfig.cache

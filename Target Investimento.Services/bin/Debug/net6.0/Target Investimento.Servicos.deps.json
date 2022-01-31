@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Target Investimento.Servicos/1.0.0": {
+        "runtime": {
+          "Target Investimento.Servicos.dll": {}
+        }
+      },
+      "Target Investimento.Repositorio/1.0.0": {
+        "runtime": {
+          "Target Investimento.Repositorio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Target Investimento.Servicos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Target Investimento.Repositorio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

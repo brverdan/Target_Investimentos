@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "befeb186-cd94-405a-83b2-f7a94149686c": {
+      "ProjectGuid": "befeb186-cd94-405a-83b2-f7a94149686c",
+      "DisplayName": "Target Investimento.API",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "490cddf1-8946-469c-bd89-7e7f67d2ecdd": {
+      "ProjectGuid": "490cddf1-8946-469c-bd89-7e7f67d2ecdd",
+      "DisplayName": "Target Investimento.Servicos",
+      "ColorIndex": 1
+    },
+    "063ba482-3dff-422c-a3d0-fb308c6b21a6": {
+      "ProjectGuid": "063ba482-3dff-422c-a3d0-fb308c6b21a6",
+      "DisplayName": "Target Investimento.Repositorio",
+      "ColorIndex": 2
+    },
+    "ba0d3b19-8934-4231-9e25-aa0f149c3dfa": {
+      "ProjectGuid": "ba0d3b19-8934-4231-9e25-aa0f149c3dfa",
+      "DisplayName": "Target Investimento.Dominio",
+      "ColorIndex": 3
+    },
+    "615435c4-6e16-4822-ba85-aee08d2968ab": {
+      "ProjectGuid": "615435c4-6e16-4822-ba85-aee08d2968ab",
+      "DisplayName": "Target Investimento.IoC",
+      "ColorIndex": 4
+    },
+    "855b1350-d078-4298-bf02-d5a38e3b4b78": {
+      "ProjectGuid": "855b1350-d078-4298-bf02-d5a38e3b4b78",
+      "DisplayName": "Target Investimento.CasoDeUso",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
