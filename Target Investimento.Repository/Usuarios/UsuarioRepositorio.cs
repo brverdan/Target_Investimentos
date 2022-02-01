@@ -19,7 +19,8 @@ namespace Target_Investimento.Repository.Usuarios
 
         public async Task<Usuario> ObterUsuario(string cpf)
         {
-            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Cpf == cpf);
+            var usuario = await _context.Usuarios.Include(x => x.Endereco)
+                                        .FirstOrDefaultAsync(u => u.Cpf == cpf);
 
             return usuario;
         }
