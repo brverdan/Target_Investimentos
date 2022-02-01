@@ -7,5 +7,6 @@ namespace Target_Investimento.Services.Repositorio.Usuarios
         Task AdicionarUsuario(Usuario entidade);
         Task<Usuario> ObterUsuario(string cpf);
         Task SalvarMudancas();
+        Task<IEnumerable<Usuario>> ListarUsuariosPorData(DateTime dataInicial, DateTime dataFinal);
     }
 }

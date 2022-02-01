@@ -11,15 +11,12 @@ namespace Target_Investimento.CasoDeUso.Usuarios.CriarUsuario
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
         private readonly IMapper _mapper;
-        private readonly IObterUfServicoExterno _obterUfServicoExterno;
 
         public CriarUsuarioCasoDeUso(IUsuarioRepositorio usuarioRepositorio,
-                                     IMapper mapper,
-                                     IObterUfServicoExterno obterUfServicoExterno)
+                                     IMapper mapper)
         {
             _usuarioRepositorio = usuarioRepositorio;
             _mapper = mapper;
-            _obterUfServicoExterno = obterUfServicoExterno;
         }
 
         public async Task<CriarUsuarioResponse> Executar(CriarUsuarioRequest request)
@@ -29,7 +26,7 @@ namespace Target_Investimento.CasoDeUso.Usuarios.CriarUsuario
             if (!listaErros.IsNullOrEmpty())
                 throw new Exception(string.Join(';', listaErros));
 
-            var ufs = await _obterUfServicoExterno.ExecutarAsync();
+            request.DataCadastramento = DateTime.Now;
 
             var usuario = _mapper.Map<Usuario>(request);
 

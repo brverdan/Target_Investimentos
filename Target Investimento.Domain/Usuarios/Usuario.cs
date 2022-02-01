@@ -8,6 +8,7 @@
         public DateTime DataNascimento { get; private set; }
         public decimal RendaMensal { get; private set; }
         public bool PlanoVip { get; private set; }
+        public DateTime DataCadastramento { get; private set; }
         public EnderecoUsuario Endereco { get; private set; }
 
         public void AssociarEndereco(EnderecoUsuario endereco)

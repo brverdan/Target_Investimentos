@@ -28,5 +28,14 @@ namespace Target_Investimento.Repository.Usuarios
         {
             await _context.SaveChangesAsync();
         }
+
+        public async Task<IEnumerable<Usuario>> ListarUsuariosPorData(DateTime dataInicial, DateTime dataFinal)
+        {
+            var usuarios = await _context.Usuarios.Include(u => u.Endereco)
+                                         .Where(u => u.DataCadastramento >= dataInicial && u.DataCadastramento <= dataFinal)
+                                         .ToListAsync();
+
+            return usuarios;
+        }
     }
 }

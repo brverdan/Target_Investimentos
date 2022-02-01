@@ -6,6 +6,7 @@
         public string Cpf { get; set; }
         public DateTime DataNascimento { get; set; }
         public decimal RendaMensal { get; set; }
+        public DateTime DataCadastramento{ get; set; }
         public CriarUsuarioEnderecoUsuarioRequest Endereco { get; set; }
     }
 }
