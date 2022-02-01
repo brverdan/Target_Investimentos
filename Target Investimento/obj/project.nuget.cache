@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MV5L3vhAuhhMRKB+hqTIiCYsHEAj7GTAQSyECFBLeVTGFk5qFyLQNUw7h99U1um54bgMGbv6q7n2p6ex8oYCHw==",
+  "dgSpecHash": "MlGh4VqV0A6HEsRtqbCPLwjdpfK9a70SixS4nYzWsvwUalh5zGYe6GsaOuNyfW1RmAGo3Z6vLMtyn2Y46lqVKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bruno\\Desktop\\Projetos\\Target Investimento\\Target Investimento\\Target Investimento.API.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\scrutor\\4.0.0\\scrutor.4.0.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",

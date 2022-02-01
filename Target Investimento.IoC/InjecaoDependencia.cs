@@ -9,6 +9,8 @@ namespace Target_Investimento.IoC
         {
             servicos.AddAutoMapper(Assembly.Load("Target Investimento.CasoDeUso"));
 
+            servicos.AddHttpClient();
+
             #region Casos de uso
             servicos.Scan(scan => scan.FromApplicationDependencies()
                                       .AddClasses(c => c.Where(x => x.Name.EndsWith("CasoDeUso")))
@@ -19,6 +21,13 @@ namespace Target_Investimento.IoC
             #region Repositórios
             servicos.Scan(scan => scan.FromApplicationDependencies()
                                       .AddClasses(c => c.Where(x => x.Name.EndsWith("Repositorio")))
+                                      .AsImplementedInterfaces()
+                                      .WithScopedLifetime());
+            #endregion
+
+            #region Serviços Externos
+            servicos.Scan(scan => scan.FromApplicationDependencies()
+                                      .AddClasses(c => c.Where(x => x.Name.EndsWith("ServicoExterno")))
                                       .AsImplementedInterfaces()
                                       .WithScopedLifetime());
             #endregion

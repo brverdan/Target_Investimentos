@@ -19,6 +19,7 @@
     <ProjectReference Include="..\Target Investimento.Domain\Target Investimento.Dominio.csproj" />
     <ProjectReference Include="..\Target Investimento.Repository\Target Investimento.Repositorio.csproj" />
     <ProjectReference Include="..\Target Investimento.Services\Target Investimento.Servicos.csproj" />
+    <ProjectReference Include="..\Target Investimento.ServicoExterno\Target Investimento.ServicoExterno.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Target_Investimento.Domain.Usuarios;
-using Target_Investimento.Services.Usuarios.CriarUsuario;
+using Target_Investimento.Services.CasoDeUso.Usuarios.CriarUsuario;
 
 namespace Target_Investimento.CasoDeUso.Usuarios.CriarUsuario.Perfil
 {

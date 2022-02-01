@@ -14,6 +14,11 @@
   <ItemGroup>
     <ProjectReference Include="..\Target Investimento.Repository\Target Investimento.Repositorio.csproj" />
     <ProjectReference Include="..\Target Investimento.Services\Target Investimento.Servicos.csproj" />
+    <ProjectReference Include="..\Target Investimento.ServicoExterno\Target Investimento.ServicoExterno.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Auxiliares\ObterCidades\Perfil\" />
   </ItemGroup>
 
 </Project>

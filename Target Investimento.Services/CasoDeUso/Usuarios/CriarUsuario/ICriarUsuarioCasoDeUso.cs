@@ -1,4 +1,4 @@
-﻿namespace Target_Investimento.Services.Usuarios.CriarUsuario
+﻿namespace Target_Investimento.Services.CasoDeUso.Usuarios.CriarUsuario
 {
     public interface ICriarUsuarioCasoDeUso
     {

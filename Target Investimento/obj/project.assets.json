@@ -457,6 +457,15 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Scrutor/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -808,6 +817,7 @@
         "dependencies": {
           "AutoMapper": "11.0.0",
           "Target Investimento.Repositorio": "1.0.0",
+          "Target Investimento.ServicoExterno": "1.0.0",
           "Target Investimento.Servicos": "1.0.0"
         },
         "compile": {
@@ -838,6 +848,7 @@
           "Target Investimento.CasoDeUso": "1.0.0",
           "Target Investimento.Dominio": "1.0.0",
           "Target Investimento.Repositorio": "1.0.0",
+          "Target Investimento.ServicoExterno": "1.0.0",
           "Target Investimento.Servicos": "1.0.0"
         },
         "compile": {
@@ -860,6 +871,20 @@
         },
         "runtime": {
           "bin/placeholder/Target Investimento.Repositorio.dll": {}
+        }
+      },
+      "Target Investimento.ServicoExterno/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Target Investimento.Servicos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Target Investimento.ServicoExterno.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Target Investimento.ServicoExterno.dll": {}
         }
       },
       "Target Investimento.Servicos/1.0.0": {
@@ -1686,6 +1711,33 @@
         "version.txt"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Scrutor/4.0.0": {
       "sha512": "o7unMddoORhI//CFPhTKBw1lZ10oCMCwu2NHXn61myiRR4cIU2/LdtK9hDbDPq7Sz8qHjbuFgbLyz8U1PKXk1A==",
       "type": "package",
@@ -2428,6 +2480,11 @@
       "type": "project",
       "path": "../Target Investimento.Repository/Target Investimento.Repositorio.csproj",
       "msbuildProject": "../Target Investimento.Repository/Target Investimento.Repositorio.csproj"
+    },
+    "Target Investimento.ServicoExterno/1.0.0": {
+      "type": "project",
+      "path": "../Target Investimento.ServicoExterno/Target Investimento.ServicoExterno.csproj",
+      "msbuildProject": "../Target Investimento.ServicoExterno/Target Investimento.ServicoExterno.csproj"
     },
     "Target Investimento.Servicos/1.0.0": {
       "type": "project",

@@ -5,11 +5,13 @@ C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\bin\
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\bin\Debug\net6.0\Target Investimento.CasoDeUso.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\bin\Debug\net6.0\Target Investimento.Dominio.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\bin\Debug\net6.0\Target Investimento.Repositorio.dll
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\bin\Debug\net6.0\Target Investimento.ServicoExterno.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\bin\Debug\net6.0\Target Investimento.Servicos.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\bin\Debug\net6.0\Target Investimento.CasoDeUso.pdb
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\bin\Debug\net6.0\Target Investimento.Dominio.pdb
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\bin\Debug\net6.0\Target Investimento.Repositorio.pdb
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\bin\Debug\net6.0\Target Investimento.Servicos.pdb
+C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\bin\Debug\net6.0\Target Investimento.ServicoExterno.pdb
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\obj\Debug\net6.0\Target Investimento.IoC.csproj.AssemblyReference.cache
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\obj\Debug\net6.0\Target Investimento.IoC.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.IoC\obj\Debug\net6.0\Target Investimento.IoC.AssemblyInfoInputs.cache

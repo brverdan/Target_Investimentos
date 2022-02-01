@@ -2,7 +2,6 @@ C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Domain\b
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Domain\bin\Debug\net6.0\Target Investimento.Dominio.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Domain\bin\Debug\net6.0\ref\Target Investimento.Dominio.dll
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Domain\bin\Debug\net6.0\Target Investimento.Dominio.pdb
-C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Domain\obj\Debug\net6.0\Target Investimento.Dominio.csproj.AssemblyReference.cache
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Domain\obj\Debug\net6.0\Target Investimento.Dominio.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Domain\obj\Debug\net6.0\Target Investimento.Dominio.AssemblyInfoInputs.cache
 C:\Users\Bruno\Desktop\Projetos\Target Investimento\Target Investimento.Domain\obj\Debug\net6.0\Target Investimento.Dominio.AssemblyInfo.cs

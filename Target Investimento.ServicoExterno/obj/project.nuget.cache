@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DjcGL7TxXRQ5byunqYcqw2sFk3u+eLi9cfoH1kpidvhk9I9jNWi6DkjummKtiZLvPqT9yGP/Ou0nqQf86SMDEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bruno\\Desktop\\Projetos\\Target Investimento\\Target Investimento.ServicoExterno\\Target Investimento.ServicoExterno.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bruno\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

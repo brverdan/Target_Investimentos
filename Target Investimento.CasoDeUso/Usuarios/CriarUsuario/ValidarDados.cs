@@ -1,5 +1,5 @@
-﻿using Target_Investimento.Services.Extensoes;
-using Target_Investimento.Services.Usuarios.CriarUsuario;
+﻿using Target_Investimento.Services.CasoDeUso.Usuarios.CriarUsuario;
+using Target_Investimento.Services.Extensoes;
 
 namespace Target_Investimento.CasoDeUso.Usuarios.CriarUsuario
 {

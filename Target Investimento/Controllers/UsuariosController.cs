@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Target_Investimento.Services.Usuarios.CriarUsuario;
+using Target_Investimento.Services.CasoDeUso.Usuarios.CriarUsuario;
 
 namespace Target_Investimento.Controllers
 {
