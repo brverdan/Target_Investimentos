@@ -14,7 +14,7 @@ namespace Target_Investimento.ServicoExterno.Auxiliares.ObterCidades
 
         public async Task<IEnumerable<ObterCidadesServicoExternoDto>> Executar(string uf)
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, $"https://servicodados.ibge.gov.br/api/v1/localidades/estados/{uf}/distritos");
+            var request = new HttpRequestMessage(HttpMethod.Get, $"https://servicodados.ibge.gov.br/api/v1/localidades/estados/{uf}/distritos?orderBy=nome");
 
             var response = await _httpClient.SendAsync(request);
 

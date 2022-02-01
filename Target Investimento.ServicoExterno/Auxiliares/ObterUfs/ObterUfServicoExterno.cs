@@ -14,7 +14,7 @@ namespace Target_Investimento.ServicoExterno.Auxiliares.ObterUfs
 
         public async Task<IEnumerable<ObterUfServicoExternoDto>> ExecutarAsync()
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, "https://servicodados.ibge.gov.br/api/v1/localidades/estados");
+            var request = new HttpRequestMessage(HttpMethod.Get, "https://servicodados.ibge.gov.br/api/v1/localidades/estados?orderBy=nome");
 
             var response = await _httpClient.SendAsync(request);
 
