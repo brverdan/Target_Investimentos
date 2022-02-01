@@ -1,4 +1,4 @@
-﻿namespace Target_Investimento.Services.CasoDeUso.Usuarios.ObterUsuarios
+﻿namespace Target_Investimento.Services.CasoDeUso.Usuarios.ObterUsuariosPorDataCriacao
 {
     public interface IObterUsuariosPorDataCriacaoCasoDeUso
     {

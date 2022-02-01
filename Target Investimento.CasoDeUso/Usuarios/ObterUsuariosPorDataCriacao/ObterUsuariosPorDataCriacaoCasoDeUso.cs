@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using Target_Investimento.Services.CasoDeUso.Usuarios.ObterUsuarios;
+using Target_Investimento.Services.CasoDeUso.Usuarios.ObterUsuariosPorDataCriacao;
 using Target_Investimento.Services.Extensoes;
 using Target_Investimento.Services.Repositorio.Usuarios;
 
-namespace Target_Investimento.CasoDeUso.Usuarios.ObterUsuarios
+namespace Target_Investimento.CasoDeUso.Usuarios.ObterUsuariosPorDataCriacao
 {
     public class ObterUsuariosPorDataCriacaoCasoDeUso : IObterUsuariosPorDataCriacaoCasoDeUso
     {

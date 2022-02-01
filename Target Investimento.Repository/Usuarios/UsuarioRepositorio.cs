@@ -37,5 +37,14 @@ namespace Target_Investimento.Repository.Usuarios
 
             return usuarios;
         }
+
+        public async Task<IEnumerable<Usuario>> ListarUsuariosPorRenda(decimal rendaMensal)
+        {
+            var usuarios = await _context.Usuarios.Include(u => u.Endereco)
+                                         .Where(u => u.RendaMensal >= rendaMensal)
+                                         .ToListAsync();
+
+            return usuarios;
+        }
     }
 }

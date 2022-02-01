@@ -8,5 +8,6 @@ namespace Target_Investimento.Services.Repositorio.Usuarios
         Task<Usuario> ObterUsuario(string cpf);
         Task SalvarMudancas();
         Task<IEnumerable<Usuario>> ListarUsuariosPorData(DateTime dataInicial, DateTime dataFinal);
+        Task<IEnumerable<Usuario>> ListarUsuariosPorRenda(decimal rendaMensal);
     }
 }

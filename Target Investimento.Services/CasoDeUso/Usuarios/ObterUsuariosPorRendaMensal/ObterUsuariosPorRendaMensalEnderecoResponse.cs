@@ -1,6 +1,6 @@
-﻿namespace Target_Investimento.Services.CasoDeUso.Usuarios.ObterUsuarios
+﻿namespace Target_Investimento.Services.CasoDeUso.Usuarios.ObterUsuariosPorRendaMensal
 {
-    public class ObterUsuariosPorDataCriacaoEnderecoResponse
+    public class ObterUsuariosPorRendaMensalEnderecoResponse
     {
         public string Logradouro { get; set; }
         public string Bairro { get; set; }

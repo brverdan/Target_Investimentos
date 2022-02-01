@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using Target_Investimento.Domain.Usuarios;
-using Target_Investimento.Services.CasoDeUso.Usuarios.ObterUsuarios;
+using Target_Investimento.Services.CasoDeUso.Usuarios.ObterUsuariosPorDataCriacao;
 
-namespace Target_Investimento.CasoDeUso.Usuarios.ObterUsuarios.Perfil
+namespace Target_Investimento.CasoDeUso.Usuarios.ObterUsuariosPorDataCriacao.Perfil
 {
     public class ObterUsuariosResponsePerfil : Profile
     {
