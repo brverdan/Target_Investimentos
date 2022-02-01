@@ -49,7 +49,7 @@ namespace Target_Investimento.CasoDeUso.Usuarios.CriarUsuario
             if (requestEndereco.Cidade.IsNullOrEmpty())
                 listaErros.Add("Cidade obrigatória");
 
-            if (requestEndereco.UF.IsNull())
+            if (requestEndereco.UF.IsNullOrEmpty())
                 listaErros.Add("Uf obrigatório");
         }
     }
