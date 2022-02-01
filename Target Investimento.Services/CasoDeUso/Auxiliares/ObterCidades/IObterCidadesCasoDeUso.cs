@@ -2,6 +2,6 @@
 {
     public interface IObterCidadesCasoDeUso
     {
-        Task<IEnumerable<ObterCidadesServicoExternoDto>> Executar(string uf);
+        Task<IEnumerable<ObterCidadesResponse>> Executar(string uf);
     }
 }

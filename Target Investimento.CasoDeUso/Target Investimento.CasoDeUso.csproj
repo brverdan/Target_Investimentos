@@ -17,8 +17,4 @@
     <ProjectReference Include="..\Target Investimento.ServicoExterno\Target Investimento.ServicoExterno.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Auxiliares\ObterCidades\Perfil\" />
-  </ItemGroup>
-
 </Project>
