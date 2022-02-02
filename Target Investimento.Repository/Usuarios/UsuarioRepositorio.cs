@@ -55,9 +55,9 @@ namespace Target_Investimento.Repository.Usuarios
             return totalAderido;
         }
 
-        public async Task<int> ObterTotalUsuarios()
+        public async Task<int> ObterTotalUsuariosSolicitantesPlanoVip()
         {
-            var totalUsuarios = await _context.Usuarios.ToListAsync();
+            var totalUsuarios = await _context.Usuarios.Where(u => u.RendaMensal >= 6000).ToListAsync();
 
             return totalUsuarios.Count;
         }

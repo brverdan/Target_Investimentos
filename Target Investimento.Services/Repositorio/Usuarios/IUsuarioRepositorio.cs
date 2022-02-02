@@ -10,7 +10,6 @@ namespace Target_Investimento.Services.Repositorio.Usuarios
         Task<IEnumerable<Usuario>> ListarUsuariosPorData(DateTime dataInicial, DateTime dataFinal);
         Task<IEnumerable<Usuario>> ListarUsuariosPorRenda(decimal rendaMensal);
         Task<int> ObterTotalClientesAderidosPlanoVip();
-
-        Task<int> ObterTotalUsuarios();
+        Task<int> ObterTotalUsuariosSolicitantesPlanoVip();
     }
 }

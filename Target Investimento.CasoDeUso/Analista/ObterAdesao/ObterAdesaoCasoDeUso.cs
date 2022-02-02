@@ -16,7 +16,7 @@ namespace Target_Investimento.CasoDeUso.Analista.ObterAdesao
         {
             var totalAderido = await _usuarioRepositorio.ObterTotalClientesAderidosPlanoVip();
 
-            var totalUsuarios = await _usuarioRepositorio.ObterTotalUsuarios();
+            var totalUsuarios = await _usuarioRepositorio.ObterTotalUsuariosSolicitantesPlanoVip();
 
             var percentual = (totalAderido / (decimal)totalUsuarios) * 100;
 
