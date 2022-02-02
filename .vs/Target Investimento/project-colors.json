@@ -35,7 +35,12 @@
       "ProjectGuid": "855b1350-d078-4298-bf02-d5a38e3b4b78",
       "DisplayName": "Target Investimento.CasoDeUso",
       "ColorIndex": 5
+    },
+    "a845fe3d-6fb2-4df3-8ada-ea746a836b35": {
+      "ProjectGuid": "a845fe3d-6fb2-4df3-8ada-ea746a836b35",
+      "DisplayName": "Target Investimento.ServicoExterno",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

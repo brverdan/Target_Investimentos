@@ -1,0 +1,335 @@
+{
+	"info": {
+		"_postman_id": "726cc009-5a33-41e2-ab10-e40cc3afb031",
+		"name": "Target",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Usuários",
+			"item": [
+				{
+					"name": "Criar usuário",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "API-KEY",
+								"value": "dG9rZW4gcGFyYSBtaW5oYSBhcGxpY2HDp8Ojbw==",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Bruno\",\r\n  \"cpf\": \"78584520023\",\r\n  \"dataNascimento\": \"1961-01-03T00:00:00.000Z\",\r\n  \"rendaMensal\": 2000,\r\n  \"endereco\": {\r\n    \"logradouro\": \"Rua Santo Antônio\",\r\n    \"bairro\": \"Taquarí\",\r\n    \"cep\": \"69906466\",\r\n    \"cidade\": \"Rio Branco\",\r\n    \"uf\": \"AC\",\r\n    \"complemento\": \"\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7043/usuarios",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7043",
+							"path": [
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar usuário por data",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "API-KEY",
+								"value": "dG9rZW4gcGFyYSBtaW5oYSBhcGxpY2HDp8Ojbw==",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7043/usuarios/dataCadastramento?dataInicial=2022-02-01&dataFinal=2022-03-01",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7043",
+							"path": [
+								"usuarios",
+								"dataCadastramento"
+							],
+							"query": [
+								{
+									"key": "dataInicial",
+									"value": "2022-02-01"
+								},
+								{
+									"key": "dataFinal",
+									"value": "2022-03-01"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar usuário por renda",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "API-KEY",
+								"value": "dG9rZW4gcGFyYSBtaW5oYSBhcGxpY2HDp8Ojbw==",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7043/usuarios/rendaMensal?rendaMensal=4000",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7043",
+							"path": [
+								"usuarios",
+								"rendaMensal"
+							],
+							"query": [
+								{
+									"key": "rendaMensal",
+									"value": "4000"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auxiliar",
+			"item": [
+				{
+					"name": "UFs",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "API-KEY",
+								"value": "dG9rZW4gcGFyYSBtaW5oYSBhcGxpY2HDp8Ojbw==",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7043/auxiliares/ufs",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7043",
+							"path": [
+								"auxiliares",
+								"ufs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cidades",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "API-KEY",
+								"value": "dG9rZW4gcGFyYSBtaW5oYSBhcGxpY2HDp8Ojbw==",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7043/auxiliares/cidades/rj",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7043",
+							"path": [
+								"auxiliares",
+								"cidades",
+								"rj"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PlanoVip",
+			"item": [
+				{
+					"name": "Obter Plano",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "API-KEY",
+								"value": "dG9rZW4gcGFyYSBtaW5oYSBhcGxpY2HDp8Ojbw==",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7043/planoVip",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7043",
+							"path": [
+								"planoVip"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Confirmar Plano",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "API-KEY",
+								"value": "dG9rZW4gcGFyYSBtaW5oYSBhcGxpY2HDp8Ojbw==",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"confirmacao\" : true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7043/planoVip/78584520023",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7043",
+							"path": [
+								"planoVip",
+								"78584520023"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clientes",
+			"item": [
+				{
+					"name": "Obter Endereço",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "API-KEY",
+								"value": "dG9rZW4gcGFyYSBtaW5oYSBhcGxpY2HDp8Ojbw==",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7043/clientes/C2BC561B-CEC3-4980-9F26-08D9E5D07A70",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7043",
+							"path": [
+								"clientes",
+								"C2BC561B-CEC3-4980-9F26-08D9E5D07A70"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Alterar endereço",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "ApiKey",
+								"value": "dG9rZW4gcGFyYSBtaW5oYSBhcGxpY2HDp8Ojbw==",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"logradouro\": \"Rua Rio de Janeiro\",\r\n  \"bairro\": \"\",\r\n  \"cep\": \"\",\r\n  \"cidade\": \"\",\r\n  \"uf\": \"RJ\",\r\n  \"complemento\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7043/clientes/C2BC561B-CEC3-4980-9F26-08D9E5D07A70",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7043",
+							"path": [
+								"clientes",
+								"C2BC561B-CEC3-4980-9F26-08D9E5D07A70"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Analista",
+			"item": [
+				{
+					"name": "Obter Adesão",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "ApiKey",
+								"value": "dG9rZW4gcGFyYSBtaW5oYSBhcGxpY2HDp8Ojbw==",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7043/analista",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7043",
+							"path": [
+								"analista"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
