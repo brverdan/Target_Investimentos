@@ -17,5 +17,11 @@ namespace Target_Investimento.Repository.Usuarios
 
             return endereco;
         }
+
+        public async Task AlterarEndereco(EnderecoUsuario endereco)
+        {
+            _context.EnderecoUsuario.Update(endereco);
+            await _context.SaveChangesAsync();
+        }
     }
 }

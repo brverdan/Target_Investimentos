@@ -13,7 +13,7 @@ namespace Target_Investimento.Repository.Usuarios
 
         public async Task AdicionarUsuario(Usuario entidade)
         {
-            _context.Add(entidade);
+            _context.Usuarios.Add(entidade);
             await _context.SaveChangesAsync();
         }
 

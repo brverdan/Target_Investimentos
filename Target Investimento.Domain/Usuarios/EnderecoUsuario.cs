@@ -11,5 +11,16 @@
         public string Complemento { get; private set; }
         public Usuario Usuario { get; private set; }
         public Guid UsuarioId { get; private set; }
+
+
+        public void AlterarDados(string logradouro, string bairro, string cep, string cidade, string uf, string complemento)
+        {
+            Logradouro = string.IsNullOrEmpty(logradouro) ? Logradouro : logradouro;
+            Bairro = string.IsNullOrEmpty(bairro) ? Bairro : bairro; ;
+            Cep = string.IsNullOrEmpty(cep) ? Cep : cep; ;
+            Cidade = string.IsNullOrEmpty(cidade) ? Cidade : cidade; ;
+            UF = string.IsNullOrEmpty(uf) ? UF : uf; ;
+            Complemento = string.IsNullOrEmpty(complemento) ? Complemento : complemento; ;
+        }
     }
 }
