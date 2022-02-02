@@ -23,6 +23,9 @@ namespace Target_Investimento.CasoDeUso.PlanoVip.ConfirmarPlanoVip
 
             var usuario = await _usuarioRepositorio.ObterUsuario(cpf);
 
+            if (usuario.IsNull())
+                throw new Exception("Usuário não encontrado");
+
             if (request.Confirmacao)
             {
                 usuario.ConfirmarPlanoVip(usuario.RendaMensal);

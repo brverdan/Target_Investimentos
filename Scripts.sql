@@ -1,4 +1,6 @@
-CREATE TABLE [dbo].[Usuarios] (
+CREATE DATABASE [TargetInvestimentosDB];
+
+CREATE TABLE [TargetInvestimentosDB]..[Usuarios] (
     [Id]                UNIQUEIDENTIFIER NOT NULL,
     [Nome]              VARCHAR (200)    NOT NULL,
     [Cpf]               VARCHAR (200)    NOT NULL,
@@ -9,7 +11,7 @@ CREATE TABLE [dbo].[Usuarios] (
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
-CREATE TABLE [dbo].[EnderecoUsuario] (
+CREATE TABLE [TargetInvestimentosDB]..[EnderecoUsuario] (
     [Id]          UNIQUEIDENTIFIER NOT NULL,
     [Logradouro]  VARCHAR (200)    NOT NULL,
     [Bairro]      VARCHAR (50)     NOT NULL,
@@ -19,5 +21,5 @@ CREATE TABLE [dbo].[EnderecoUsuario] (
     [Complemento] VARCHAR (50)     NULL,
     [UsuarioId]   UNIQUEIDENTIFIER NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC),
-    FOREIGN KEY ([UsuarioId]) REFERENCES [dbo].[Usuarios] ([Id]) ON DELETE CASCADE
+    FOREIGN KEY ([UsuarioId]) REFERENCES [TargetInvestimentosDB]..[Usuarios] ([Id]) ON DELETE CASCADE
 );
