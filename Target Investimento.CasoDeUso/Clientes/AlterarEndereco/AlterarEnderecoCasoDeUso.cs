@@ -1,4 +1,5 @@
 ﻿using Target_Investimento.Services.CasoDeUso.Clientes.AlterarEndereco;
+using Target_Investimento.Services.Extensoes;
 using Target_Investimento.Services.Repositorio.Usuarios;
 
 namespace Target_Investimento.CasoDeUso.Clientes.AlterarEndereco
@@ -17,6 +18,9 @@ namespace Target_Investimento.CasoDeUso.Clientes.AlterarEndereco
             ValidarDados(clienteId, request);
 
             var endereco = await _enderecoRepositorio.ObterEndereco(clienteId);
+
+            if (endereco.IsNull())
+                throw new Exception("Endereço não encontrado");
 
             endereco.AlterarDados(request.Logradouro, request.Bairro, request.Cep, request.Cidade, request.UF, request.Complemento);
 

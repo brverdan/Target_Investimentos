@@ -23,6 +23,9 @@ namespace Target_Investimento.CasoDeUso.Clientes.ObterEndereco
 
             var endereco = await _enderecoRepositorio.ObterEndereco(clienteId);
 
+            if (endereco.IsNull())
+                throw new Exception("Endereço não encontrado");
+
             return _mapper.Map<ObterEnderecoResponse>(endereco);
         }
     }
