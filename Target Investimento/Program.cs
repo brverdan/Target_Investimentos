@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Target_Investimento.IoC;
+using Target_Investimento.Middleware;
 using Target_Investimento.Repository.Context;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,6 +27,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseMiddleware<ApiKeyMiddleware>();
 
 app.UseAuthorization();
 
